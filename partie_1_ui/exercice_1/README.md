@@ -1,4 +1,4 @@
-# Partie 1 - Consigne exercice
+# Partie 1 - Consigne exercice 1
 
 ## Introduction 
 
@@ -14,7 +14,7 @@ Vous devez créer un simple formulaire pour recueillir des questions au sujet de
 
 ## Output attendu
 
-![capture écran exercice 1](image.png)
+![capture écran exercice 1](exercice1_screenshot.png)
 
 
 ## Solution
