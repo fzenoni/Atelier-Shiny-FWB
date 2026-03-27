@@ -1,6 +1,6 @@
 # Atelier R Shiny du Data Office au MFWB
 
-[Florian Zenoni](https://www.linkedin.com/in/florianzenoni/) du Data Office
+[Florian Zenoni](https://www.linkedin.com/in/florianzenoni/) du Data Office (florian.zenoni@cfwb.be)
 
 ## Introduction et objectifs
 
@@ -28,4 +28,14 @@ Si vous voulez en savoir plus sur shinylive ou utiliser un environnement de dév
 
 Chaque partie a un dossier dédié dans ce dépôt :
 * Un fichier README documente le contexte et fournit des exemples de code.
-* 
+* Les solutions de tous les exercices sont disponible dans le dossier solutions. Essayer de ne pas les consulter si vous ête bloqués, mais lisez plutôt la documentation afin d'améliorer vos connaissances.
+
+## Format de l'atelier
+
+L'atelier est divisé en X parties
+
+Pour chaque partie il y a 
+* 10-15 minutes d'introduction avec un tutoriel
+* 20 minutes de travaux pratiques
+    * Ce temps sera à disposition pour répondre à vos questions et aider au débuggage.
+* 5 minutes de récapitulation avant de passer à la partie suivante.
