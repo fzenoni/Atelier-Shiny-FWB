@@ -1,7 +1,7 @@
 library(shiny)
 
 ui <- fluidPage(
-  h1('Sondage Shiny'),
+  h2('Sondage Shiny'),
   fluidRow(
     column(
       width = 6,
