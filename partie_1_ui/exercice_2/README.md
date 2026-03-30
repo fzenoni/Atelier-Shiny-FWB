@@ -13,7 +13,7 @@ Vous devez créer l'UI d'un petit formulaire de sondage pour récolter des infor
 
 ## Output attendu
 
-![capture écran exercice 2](image.png)
+![capture écran exercice 2](exercice2_screenshot.png)
 
 
 ## Solution
