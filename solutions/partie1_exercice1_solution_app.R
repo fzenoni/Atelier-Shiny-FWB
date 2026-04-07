@@ -1,7 +1,7 @@
 library(shiny)
 
 # Define UI ----
-ui <- page_fluid(
+ui <- fluidPage(
   textInput("nom", "Votre nom"),
   selectInput(
     "cat",
