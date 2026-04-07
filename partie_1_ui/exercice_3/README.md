@@ -10,7 +10,7 @@ Créez une app avec deux onglets A et B, en utilisant les fonctions de `{bslib}`
 * Onglet 2 :
     * Montrer l'image placée dans le dossier `www/`.
 
-Utilisez la fonction `img()` pour placer une image.
+Utilisez la fonction `img()` pour placer une image. Le parcours de l'image doit **exclure** le dossier par défaut `www/`.
 
 ## Output attendu
 
@@ -24,4 +24,7 @@ Utilisez la fonction `img()` pour placer une image.
 
 ## Resources
 
+![logo fwb](logo_FWB_couleur.png)
+
 [Doc bslib](https://rstudio.github.io/bslib/articles/dashboards/index.html)
+
