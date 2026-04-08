@@ -2,6 +2,7 @@ library(shiny)
 library(bslib)
 library(ggplot2)
 library(dplyr)
+library(tidyr)
 
 data <- read.csv('foods.csv')
 data <- data |> arrange(Food)
@@ -32,7 +33,7 @@ ui <- page_sidebar(
     sliderInput("carbs", "Glucides (g)", min = 10, max = 500, value = 250),
     sliderInput("protein", "Protéines (g)", min = 10, max = 200, value = 50),
     sliderInput("fat", "Graisses (g)", min = 10, max = 200, value = 60),
-    sliderInput("calories", "kCals", min = 1000, max = 4000, value = 2000)
+    sliderInput("calories", "kcal", min = 1000, max = 4000, value = 2000)
   ),
   card(card_header("Valeurs nutritionnelles"), plotOutput('plt'))
 )
