@@ -12,13 +12,11 @@ On vous a fourni une application contenant déjà toutes les données requises, 
 
 ## Tâches
 
-- Ajoutez une carte à l'interface utilisateur (UI) intitulée « Valeurs nutritionnelles » contenant un graphique
-  affiché sous les cartes d'entrée fournies
+- Ajoutez une carte dans l'espace principal de l'interface utilisateur (UI) intitulée « Valeurs nutritionnelles » contenant un graphique
 - Créez une fonction de graphique sur le serveur et déplacez tout le code à l'intérieur de celle-ci
-- Reliez toutes les entrées pertinentes au graphique : le résultat s'actualisera comme prévu
+- Reliez tous les inputs pertinents au graphique : le résultat s'actualisera comme prévu
 
 
 ### Défi supplémentaire (facultatif)
 
-L'ensemble de données contient également une colonne indiquant le nombre de grammes pour un ensemble de nutriments donnés. Ajoutez un titre au graphique indiquant combien de grammes vous devriez manger pour absorber la quantité actuelle de nutriments affichée dans le
-graphique.
+L'ensemble de données contient également une colonne indiquant le nombre de grammes par aliment. Ajoutez un titre au graphique indiquant combien de grammes vous devriez manger pour absorber la quantité actuelle de nutriments affichée dans le graphique.
