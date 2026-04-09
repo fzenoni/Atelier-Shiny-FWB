@@ -1,7 +1,8 @@
 library(shiny)
+library(bslib)
 
 # Define UI ----
-ui <- fluidPage(
+ui <- page_fluid(
 
   # Écrivez le code ici
 

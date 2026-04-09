@@ -1,15 +1,9 @@
 library(shiny)
+library(bslib)
 
-# Define UI ----
-ui <- fluidPage(
-
-  # Insérez le code ici
-
+ui <- page_fluid(
 )
 
-# Define server (empty) ----
-server <- function(input, output, session) {
-}
+server <- function(input, output, session) {}
 
-# Create Shiny app ----
 shinyApp(ui, server)

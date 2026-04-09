@@ -1,10 +1,11 @@
 library(shiny)
+library(bslib)
 
-ui <- fluidPage(
-  h2('Sondage Shiny'),
-  fluidRow(
-    column(
-      width = 6,
+ui <- page_fluid(
+  h2("Sondage Shiny"),
+  layout_columns(
+    col_widths = c(6, 6),
+    div(
       sliderInput(
         "exp",
         "Expérience de 0 (novice) à 5 (expert)",
@@ -29,7 +30,9 @@ ui <- fluidPage(
         "Sur quel sujet voudriez-vous en savoir plus ?"
       )
     ),
-    column(width = 6, plotOutput("plt"))
+    div(
+      plotOutput("plt")
+    )
   ),
   actionButton("envoyer", "Envoyer")
 )
