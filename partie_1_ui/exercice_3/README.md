@@ -12,6 +12,8 @@ Créez une app avec deux onglets A et B, en utilisant les fonctions de `{bslib}`
 
 Utilisez la fonction `img()` pour placer une image. Le parcours de l'image doit **exclure** le dossier par défaut `www/`.
 
+**Attention !** Le sidebar se trouve à l'intérieur d'un seul onglet, pas de toute l'application. C'est pourquoi j'ai mis à disposition le composant [`navset_tab()`](https://rstudio.github.io/bslib/reference/navset.html).
+
 ## Output attendu
 
 ![alt text](onglet1.png)
