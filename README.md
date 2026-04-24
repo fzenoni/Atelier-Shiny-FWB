@@ -26,3 +26,8 @@ Cet atelier a pour objectifs :
 Chaque partie a un dossier dédié dans ce dépôt :
 * Un fichier README documente le contexte et fournit des exemples de code.
 * Les solutions de tous les exercices sont disponibles dans le dossier solutions. Essayer de ne pas les consulter si vous êtes bloqués, mais lisez plutôt la documentation afin d'améliorer vos connaissances.
+
+## Crédits
+
+Ce contenu est adapté de [RShiny2Python](https://github.com/pieterjanvc/RShiny2Python) par [PJ Van Camp](https://github.com/pieterjanvc), 
+publié sous licence GNU AGPL v3.0.
